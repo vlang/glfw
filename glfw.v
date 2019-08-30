@@ -310,4 +310,3 @@ pub fn (size Size) str() string {
 pub fn get_window_user_pointer(gwnd voidptr) voidptr {
 	return C.glfwGetWindowUserPointer(gwnd)
 }
-
